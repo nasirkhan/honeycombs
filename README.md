@@ -5,7 +5,7 @@ jQuery plugin for displaying images in a responsive Honeycomb/ Hexagon grid with
 ## Honeycomb/ Hexagon Grid
 To create a Honeycomb/ Hegagon grid, use the following HTML markup:
 
-```
+```HTML
 <div class="honeycombs">
     <div class="comb">
       <img src="https://farm6.staticflickr.com/5737/31044656732_c031f1294c_z.jpg" /> 
@@ -21,7 +21,7 @@ To create a Honeycomb/ Hegagon grid, use the following HTML markup:
 
 Add the following Javascript snippet at the bottom of the page,
 
-```
+```js
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="homeycombs/js/jquery.homeycombs.js"></script>
 
@@ -35,7 +35,7 @@ Add the following Javascript snippet at the bottom of the page,
 ## Honeycomb/ Hexagon Grid With Caption
 To create a Honeycomb/ Hegagon grid, use the following HTML markup:
 
-```
+```HTML
 <div class="honeycombs">
     <div class="comb">
       <img src="https://farm6.staticflickr.com/5737/31044656732_c031f1294c_z.jpg" />
@@ -61,7 +61,7 @@ To create a Honeycomb/ Hegagon grid, use the following HTML markup:
 
 Add the following Javascript snippet at the bottom of the page,
 
-```
+```JS
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="homeycombs/js/jquery.homeycombs.js"></script>
 
