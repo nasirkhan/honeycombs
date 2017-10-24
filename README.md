@@ -71,3 +71,13 @@ Add the following Javascript snippet at the bottom of the page,
     });
 </script>
 ```
+
+**Credit**
+I found the base script and the [demo](http://examples.rabbid.net/honeycombs/demo.html) few years back, recently when i checked the repo and demo were missing. 
+
+Earlier i made some chaneges to the script for one of my projects. Uploading here with with some modification. 
+
+
+## Contribute
+
+If you want to contribute to this project, feel free to send pull requests. 
