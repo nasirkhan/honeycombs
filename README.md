@@ -1,6 +1,10 @@
 # jQuery Honeycombs
 jQuery plugin for displaying images in a responsive Honeycomb/ Hexagon grid with caption and anchor
 
+## Demo
+Open the following link to check the demo.
+
+Demo URL: https://nasirkhan.github.com/honeycombs
 
 ## Honeycomb/ Hexagon Grid
 To create a Honeycomb/ Hegagon grid, use the following HTML markup:
