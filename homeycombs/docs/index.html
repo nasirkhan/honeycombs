@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>jQuery Honeycombs</title>
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/nasirkhan/honeycombs/master/homeycombs/css/homeycombs.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modaal@0.3.1/dist/css/modaal.min.css" />
+</head>
+
+<body>
+
+  <h1 style="text-align: center;">jQuery Honeycombs/ Hexagon Demo</h1>
+  <p style="text-align: center;">
+     jQuery Honeycombs/ Hexagon Demo with Modaal plugin.
+  </p>
+
+  <div class="honeycombs">
+    <div class="comb">
+
+      <img src="https://farm8.staticflickr.com/7019/13227089653_c45b679b9e_z.jpg" />
+      <a href="#inline1" class="inline" style="display:none;">Show1</a>
+      <span>
+        <br>
+         jQuery Honeycombs
+      </span>
+
+    </div>
+
+    <div class="comb">
+      <img src="https://farm5.staticflickr.com/4506/37211295550_b2c0c80f9f_z.jpg" />
+      <a href="#inline" class="inline" style="display:none;">Show1</a>
+      <span>
+        <b>Image</b>
+        <br>Caption</span>
+    </div>
+    <div class="comb">
+      <img src="https://farm5.staticflickr.com/4432/36910614456_3ced287e8b_z.jpg" />
+      <a href="https://github.com/nasirkhan/honeycombs" class="" style="display:none;">Show1</a>
+      <span>
+        <b>Project at</b>
+        <br> Github</span>
+    </div>
+    <div class="comb">
+      <img src="https://farm3.staticflickr.com/2867/33288481373_9f06908a9c_z.jpg" /> </div>
+    <span></span>
+    <div class="comb">
+      <img src="https://farm6.staticflickr.com/5737/31044656732_c031f1294c_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm6.staticflickr.com/5727/30785062315_cb44d0c372_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm8.staticflickr.com/7091/27557985951_7abf426c1e_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm6.staticflickr.com/5660/29969452322_6dbbac4d9b_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm9.staticflickr.com/8262/29943887042_e261fac631_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm6.staticflickr.com/5319/14411023883_11731c318b_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm8.staticflickr.com/7236/27138241992_db32c590f5_z.jpg" /> </div>
+    <div class="comb">
+      <img src="https://farm8.staticflickr.com/7409/27202102572_bc9e298904_z.jpg" /> 
+    </div>
+    <div class="comb">
+      <img src="https://farm7.staticflickr.com/6151/6229592755_8b7e7ed7a9_z.jpg" /> 
+    </div>
+    <div class="comb">
+      <img src="https://farm8.staticflickr.com/7134/7556624868_36eaf9e10f_z.jpg" /> 
+    </div>
+  </div>
+
+  <!-- <a href="#inline" data-modaal-type="inline" data-modaal-animation="fade" class="modaal">Show</a> -->
+  <div id="inline" style="display:none;">
+    <h2 style="text-align: center;">
+      #0</h2>
+    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+      venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  </div>
+
+  <div id="inline1" style="display:none;">
+    <h2 style="text-align: center;">#1</h2>
+    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+      venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/modaal@0.3.1/dist/js/modaal.min.js"></script>
+  <script src="https://raw.githubusercontent.com/nasirkhan/honeycombs/master/homeycombs/js/jquery.homeycombs.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.honeycombs').honeycombs();
+
+      $(".inline").modaal();
+    });
+  </script>
+
+
+</body>
+
+</html>
